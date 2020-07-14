@@ -1,0 +1,32 @@
+{
+  "name": "olx-clone",
+  "version": "1.0.0",
+  "description": "just e-commerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "pretest": "eslint --ignore-path .gitignore ."
+  },
+  "author": "anonymous",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.5.9",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "socket.io": "^2.3.0",
+    "uuid": "^3.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-strongloop": "^2.1.0",
+    "nodemon": "^2.0.4"
+  }
+}
