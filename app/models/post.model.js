@@ -42,6 +42,9 @@ const postSchema = Schema({
     file : String
   }],
   showPhone: Boolean,
+  likes: [
+    { type: Schema.Types.ObjectId, ref: 'User' }
+  ],
   createdAt: {
     type: Number,
   },
